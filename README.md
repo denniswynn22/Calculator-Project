@@ -3,6 +3,7 @@
 This is a project I am building in the Nebula Academy SEV12 program. This is a vintage 80's styled calculator with a flipped screen and basic functionality for everyday people's needs.
 
 ## Wireframe
+https://whimsical.com/my-calculator-NPR1mHjZ5DWqyh8V2fVRGd // add a markdown Link
 
 ## Features
 
