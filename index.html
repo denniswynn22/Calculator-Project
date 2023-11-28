@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>Calculator</title>
-    <script src="Calculator Index JS.js" type="module" defer></script>
-    <link rel="Calculator Style" href="Calculator Style.css" />
-    
-    <div class="calculator">
-    <div class="display"></div>
-    <div class="buttons">
-      <button class="red">C</button>
-      <button class="red">+/-</button>
-      <button class="red">%</button>
-      <button class="red">÷</button>
-      <button class="yellow">7</button>
-      <button class="yellow">8</button>
-      <button class="yellow">9</button>
-      <button class="red">x</button>
-      <button class="yellow">4</button>
-      <button class="yellow">5</button>
-      <button class="yellow">6</button>
-      <button class="red">-</button>
-      <button class="yellow">1</button>
-      <button class="yellow">2</button>
-      <button class="yellow">3</button>
-      <button class="red">+</button>
-      <button class="black">0</button>
-      <button class="yellow">.</button>
-      <button class="black">=</button>
-    </div>
+    <link rel="stylesheet" href="style.CSS" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="header">
+        <h1> My Calculator</h1>
+        <input type="text" id="display">
+      </section>
+      <section class="buttons">
+        <button onclick="getNumber(0)">0</button>
+        <button onclick="getNumber(1)">1</button>
+        <button onclick="getNumber(2)">2</button>
+        <button onclick="getNumber(3)">3</button>
+        <button onclick="getNumber(4)">4</button>
+        <button onclick="getNumber(5)">5</button>
+        <button onclick="getNumber(6)">6</button>
+        <button onclick="getNumber(7)">7</button>
+        <button onclick="getNumber(8)">8</button>
+        <button onclick="getNumber(9)">9</button>
+
+        <button onclick="getNumber(.)">.</button>
+
+        <button onclick="clearDisplay()">C</button>
+        
+        <button onclick="getOperator('+')">+</button>
+        <button onclick="getOperator('-')">-</button>
+        <button onclick="getOperator('*')">X</button>
+        <button onclick="getOperator('/')">÷</button>
+
+        <button onclick="calculateEquals()">=</button>
+      </section">
   </div>
+  <script src="script.js"></script>
+</html>

@@ -1,0 +1,56 @@
+body{
+    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    margin: 10vh auto;
+    width: 500px;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 100px;
+    background-color: #600707;
+}
+
+.header {
+    margin: 2rem;
+    color: aquamarine;
+}
+
+input {
+    width: 400px;
+    padding: 1rem 1rem;
+    font-size: 3rem;
+    border-radius: 1000px;
+    text-align: right;
+    background-color:rgb(255, 255, 255);
+    color: rgb(9, 26, 151);
+}
+
+.buttons{
+    margin:auto;
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    width: 50px;
+    max-height: 100px;
+    text-align: center;
+    border-radius: 5%;
+
+    font-weight: 10;
+    background-color: rgb(166, 166, 166);
+    color: white;
+}
+
+button{
+    padding: 40px
+    font-size: 20px;
+    margin: 0.5rem;
+}
+
