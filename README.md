@@ -1,30 +1,31 @@
 # Calculator Project
 
-This is a project I am building in the Nebula Academy SEV12 program. This is a vintage 80s style calculator with a flip screen and basic functionality for everyday people's needs. When I enter my favorite number "22++" the calculator displays "Hi Dennis". When one enters 9999XX the calculator closes.
+This is a project I am building in the Nebula Academy SEV12 program. This is a pill style calculator with basic functionality. When one enters al operators "+.-.*,/" the calculator displays "HELLO FRIEND". When one enters 123456789987654321 - the calculator color scheme changes to black and red. 
 
 ## Wireframe
-https://whimsical.com/my-calculator-NPR1mHjZ5DWqyh8V2fVRGd // add a markdown Link
+https://whimsical.com/my-calculator-CbhrWhdXqKykjsc1XKgvMk
+
 
 ## Features
 
 ### MVP (Minimum Viable Product)
 
-- Post to a Public Repo
+-[X] Post to a Public Repo
 
-- [ ] Functions
-   - [ ] Add
-   - [ ] Subtract
-   - [ ] Multiply
-   - [ ] Divide
-- [ ] Styling
-   - [ ] FlexBox
+- [X] Functions
+   - [X] Add
+   - [X] Subtract
+   - [X] Multiply
+   - [X] Divide
+- [X] Styling
+   - [X] FlexBox
    - [ ] OR
    - [ ] Grid
 
 ### PMVP (Post Minimum Viable Product)
 
-- [ ] Entering 22++ displays "Hi Dennis"
-- [ ] Pressing "FLIP" closes the calculator screen (Flips Closed)
+- [ ] operators "+.-.*,/" the calculator displays "HELLO FRIEND". 
+- [ ] enters 123456789987654321 - the calculator color scheme changes to black and red. 
 
 ## Installation
 
